@@ -1,0 +1,22 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.jumbotron {
+    background: url('https://s3.ap-south-1.amazonaws.com/zo-media/blog_photo/071_Varkala_10.jpg') no-repeat center center;
+    background-size: cover;
+    color: rgb(5, 0, 0);
+    height: 400px;
+    margin-bottom: 0;
+}
+
+.jumbotron .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
